@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'MADELikesScript';
+	src: url('fonts/madelikesscript.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/madelikesscript.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/madelikesscript.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/madelikesscript.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/madelikesscript.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/madelikesscript.svg#madelikesscript') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Dolphins';
+	src: url('fonts/dolphins.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/dolphins.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/dolphins.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/dolphins.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/dolphins.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/dolphins.svg#dolphins') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body{
+    background-color: rgb(245, 247, 233);
+    width: 1,7rem;
+}
+
+h1{
+    margin-left: 50%;
+    font-size: 2rem;
+    color: #0e535c;
+    font-family: 'Dolphins', sans-serif;
+}
+.my{
+    color: #248097;
+    text-align: right;
+    font-size: 1,4rem;
+    font-family: 'MADELikesScript', sans-serif;
+}
+.art{
+    width: 70%;
+    margin-left: 15rem;
+}
+h2{
+   text-align: center; 
+}
+a:hover{
+    color: rgb(187, 126, 52);
+}
